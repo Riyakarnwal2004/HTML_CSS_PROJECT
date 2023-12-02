@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 98%;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .logo{
+           display: flex;
+           align-items: center;
+           color: green;
+           font-family: 'Courier New', Courier, monospace;
+           font-size: larger;
+        }
+        .logo img{
+            height: 96px;
+            width:86px;
+        }
+        .right{
+            font-size: 2.5rem;
+            height: 36px;
+            width: 36px;
+        }
+        .first{
+            height: 70vh;
+            width: 100%;
+            margin: auto;
+            display: flex;
+             gap: 100px;                    
+        }
+        .image img{
+            height: 600px;
+            width: 600px;
+            margin: auto;
+            margin-left: 200px;
+            margin-top: 80px;
+        }
+        .text h1{
+            font-size: 5rem;
+        }
+        .text{
+            height: 370px;
+            width: 560px;
+            font-size: large;
+           
+            margin-top: 150px;
+             
+        }
+        .text p{
+            padding: 15px;
+        }
+        .btn button{
+            height: 50px;
+            width: 200px;
+            font-size: 1.5rem;
+            padding: 5px;
+            color: white;
+            background-color: #FFC066;
+        }
+        .container{
+            width: 1200px;
+            height: 900px;
+            margin: auto;
+            margin-top: 80px;
+            display: grid;
+            gap: 20px;
+            border: 1px solid black;
+            grid-template-areas: 
+            "item1 item1 item2 item3"
+            "item1 item1 item2 item7"
+            "item4 item5 item6 item7";            ;
+        }
+        #item1{
+            grid-area: item1;
+        }
+        #item2{
+            grid-area: item2;
+        }
+        #item3{
+            grid-area: item3;
+        }
+        #item4{
+            grid-area: item4;
+        }
+        #item5{
+            grid-area: item5;
+        }
+        #item6{
+            grid-area: item6;
+        }
+        #item7{
+            grid-area: item7;
+        }
+        .dis{
+            background-color: green;
+            color: white;
+            height: 30px;
+            width:200px;
+            padding: 3px;
+            position: relative;
+            left: 19rem;
+        
+        }
+               .one{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        #one,#two,#three{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            gap: 0px;
+        }
+        .btn2{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .btn2 button{
+            height: 50px;
+            width: 200px;
+            font-size: 1.5rem;
+            padding: 5px;
+            color: white;
+            background-color:green;
+           
+        }
+        .head{
+            font-size: larger;
+            font-family: 'courier';
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .second{
+            background-color:peachpuff;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin: auto;
+            margin-top: 88px;
+            font-size: large;
+        }
+     .text1{
+        color: #565656;
+       
+     }
+    </style>
+    <script src="https://kit.fontawesome.com/0748427764.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+<div class="logo"><img src="i4.png" alt="">
+        <h1>Company</h1></div>
+        <div class="right"><i class="fa-solid fa-bars"></i></div>
+    </header>
+    <div class="first">
+        <div class="image"><img src="Hero Image.png" alt=""> </div>
+        <div class="dis">50 % OFF  All Products
+        </div>
+        <div class="text">
+            
+            <h1>Enjoy Your Delicious Food
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, officia. Lorem ipsum dolor sit amet.</p>
+        <div class="btn"><button type="submit">Explore Now</button></div>
+    </div>
+   
+    </div>
+    <footer class="one">
+        <div id="one">
+            <img src="i3.png" alt="">
+      
+        <div id="text"><h3>Discount Voucher</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing.</p></div>
+    </div>
+    <div id="two">
+        <img src="i1.png" alt="">
+        <div id="text"><h3>Fresh Healthy Food</h3><p>Lorem ipsum dolor sit amet consectetur.</p></div>
+    </div>
+    <div id="three">
+        <img src="i2.png" alt="">
+        <div id="text"><h3>Fast Home Delivery</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p></div>
+    </div>
+    </footer>
+    <div class="btn2"><button type="submit">Our Menu</button></div>
+    <div class="head"><h1>Explore Our Menu</h1></div>
+    <div class="container">
+        <img id="item1" src="image1.png" alt="">
+    <img id="item2" src="image2.png" alt="">
+    <img id="item3" src="image3.png" alt="">
+    <img id="item4" src="image4.png" alt="">
+    <img id="item5" src="image5.png" alt="">
+    <img id="item6" src="image6.png" alt="">
+    <img id="item7" src="image7.png" alt="">
+        </div>
+<footer class="second">
+    <div class="logo"><img src="i4.png" alt="">
+        <h1>Company</h1></div>
+        <div class="text1">
+            <h3>main link</h3>
+            <p>Order Tracking</p>
+               <p> New Order</p>
+               <p>Contact Us</p>
+               <p>News & Blogs</p>
+        </div> 
+        <div class="text1">
+            <h3>Support</h3>
+            <p>About Us</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+        </div>
+        <div class="text1">
+            <h3>Join Our Newsletter</h3>
+            <form action=""><input type="email" placeholder="enter you email"></form>
+            <p>follow us</p>
+            <p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </p>
+        </div>
+</footer>
+    
+</body>
+</html>
