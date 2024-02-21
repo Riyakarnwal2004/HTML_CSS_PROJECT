@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+padding-left: 5px;
+display: flex;
+}
+
+nav{
+    min-height: 100vh;
+    width: 10%;
+    border: 2px solid gray;
+    border-bottom: none;
+    text-align: center;
+}
+nav h4,li{
+    padding: 10px;
+    border-bottom: 1px solid black;
+   }
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.text  div p{
+    padding:10px;
+        }
+    .text div ul li{
+        border-bottom: none;
+      margin-left: 50px;
+    }
+ .code{
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+   
+ }
