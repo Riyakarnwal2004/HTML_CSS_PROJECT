@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 100vw;
+    margin:50px;
+    
+}
+
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:20px;
+}
+.right ul a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.right ul a li{ 
+    display: inline;
+    list-style: none;
+    color: black;
+   
+}
+.first{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sidetext{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 1.9rem;
+padding: 120px;
+}
+.sidetext h3{
+    color: #ccc;
+    font-family:'Courier New';
+    font-size: 1.8rem;
+}
+.img1{
+    width: 50%;
+    
+}
+.img1 img{
+    border-radius: 50px;
+    margin-top: 80px;}
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0,0.1);
+        border-radius: 5px;
+    }
+    .sidetext2{
+        width: 50%;
+        font-size: 1.3rem;
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+            }
+        .sidetext2 p{
+            margin-top: 20px;
+            color: #b4b3b3;
+           
+        }
+       
+    .img2{
+        width: 50%;
+         }
+    footer{
+        font-size:1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer button{
+        background-color: white;
+        border: none;
+        font-weight: 600;
+    }
+    .third{
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        gap: 50px;
+        justify-content: center;
+    }
+     .text{
+        width: 100%;
+        padding: 40px;
+        font-size: 1.3rem;
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .text p{
+        color: #b4b3b3;
+        margin-top: 20px;
+    }
+    .card1,.card2,.card3{
+        width: 28%;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0,0.1);
+    }
+       .third img{
+        width: 100%;
+    }
+    .four{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top:  100px ;
+    
+        background-color: #f7f6f6;
+      height: 80%;
+    }
+    .sidetext3{
+        width: 40%;
+        height: 100%;
+        font-size: 1.8rem;
+        display: flex;
+      
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px; 
+       
+    }
+    .sidetext3 p{
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+    .img4{
+        width:60%;
+    }
+    .img4 img{
+        width: 100%;
+    }
+    .four footer{
+        font-size:1rem;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .four footer button{
+        background-color: #f7f6f6;
+    }
+    .last{
+        display: flex;
+        font-size: larger;
+        border-top: 1px solid grey;
+        padding: 20px;
+    }
+    .button{
+        width: 73%;
+        height: 20%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .btn{
+        background-color:#6B46C1;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .last ul a li{
+        list-style: none;
+        color: black;
+        display: inline;
+        padding: 10px;
+    }
