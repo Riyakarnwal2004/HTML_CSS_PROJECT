@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(134, 134, 249);
+}
+form{
+    height: 73%;
+    width: 25%;
+    background-color: white;
+ border-radius:10px ;
+ text-align: center;
+ padding: 20px;
+ margin: 30px;
+ position: absolute;
+ left: 500px;
+}
+form input{
+    height: 30px;
+    width: 75%;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(78, 78, 190);
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    
+}
+.signup a{
+    text-decoration: none;
+}
+
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 17px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height:1px;
+  width: 130px;
+  background: rgb(134, 134, 134);
+  display: block;
+  position: relative;
+  top: 15px;
+  left:22px;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 1px;
+  width: 130px;
+  background: rgb(134, 134, 134);
+  display: block;
+  position: relative;
+  top: -12px;
+  left: 216px;
+}
+.fb_btn{height: 45px; 
+    width: 75%;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 45px;
+    background-color: rgb(90, 90, 213);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.fb_btn a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.google_btn{height: 45px; 
+    width: 75%;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 45px;
+    background-color:white;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: px;
+    border: 2px solid grey;
+
+}
+.google_btn a{
+    text-decoration: none;
+    color: grey;
+    
+}
+@media(max-width:1024px){
+    form{
+        width:38%;
+     position: absolute;
+     left: 300px;
+}
+.hr-lines:before{
+    
+    width: 105px;
+    
+    left:68px;
+  }
+  .hr-lines:after{
+    
+    width: 105px;
+    left: 218px;
+  }
+  .fb_btn,.google_btn{
+    top:-5px;
+    left: 29px;
+  }
+}
+@media(max-width:768px){
+    form{
+        width: 350px;
+        position: absolute;
+        left: 141px;
+   }
+    .hr-lines:before{
+    
+        width: 105px;
+        
+        left:50px;
+      }
+      .hr-lines:after{
+        
+        width: 105px;
+        left: 200px;
+      }
+}
+@media(max-width:425px){
+    form{
+ 
+        position: absolute;
+        left: -16px;
+   }
+}
