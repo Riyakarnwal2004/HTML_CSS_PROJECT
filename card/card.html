@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:#EFC6AD ;
+           
+        }
+        .fcontainer{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .container{
+         
+            background-color: #472F2F;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 350px;
+            width: 800px;
+            box-shadow: 10px 20px 40px rgba(0,0,0,0.4);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }.text{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                      } 
+           h1{font-size: 2rem;
+           }
+           h4{
+            font-size: 1rem;
+           }
+        .imagecontainer{
+            max-height: 100%;
+           max-width: 400px ;
+            
+        }
+        .simg{
+            height: 200px;
+            width: 100vw;
+            position: absolute;
+            top:98px;
+            left: 250px;
+                }
+                .timage{
+                    position: absolute;
+                    top: 250px;
+                }
+                .timage img{
+                    width: 100vw;
+                }
+
+    </style>
+</head>
+<body>
+    <div class="fcontainer">
+        <div class="simg">
+            <img src="Rectangle 1.svg" alt="">
+        </div>
+        <div class="timage">
+            <img src="Line 1.svg" alt="">
+        </div>
+    <div class="container">
+        <div class="text"><h1>2024</h1>
+        <h4>Happy New Year</h4>
+    </div>
+        <div class="imagecontainer">
+            <img src="Image.png" alt="error">
+        </div>
+    </div>
+</div>
+</body>
+</html>
