@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    @keyframes loading1 {
+       0%,100%{
+        translate: 0 50%;
+       }
+       25%,75%{
+translate: 0 0%;
+       }
+       50%{
+          translate: 0 -50%;
+       } 
+}
+@keyframes loading2{
+       0%,100%{
+        translate: 0 -50%;
+       }
+       25%,75%{
+translate: 0 0%;
+       }
+       50%{
+          translate: 0 50%;
+       }      
+}
+    .container{min-height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    #one{    animation: loading1 0.8s ease-in infinite ;
+    }
+    #two{
+        
+        animation: loading2 0.8s ease-in infinite ;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div> 
+    <img  id="one"src="img1.png" alt="">
+   <img id="two" src="Ellipse 2.png" alt="">
+    <img id="one" src="img1.png" alt="">
+    <img  id="two"src="Ellipse 2.png" alt="">
+   <img  id="one"src="img1.png" alt="">
+</div>
+</div>
+</body>
+</html>
